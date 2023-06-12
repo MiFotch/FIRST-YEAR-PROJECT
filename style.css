@@ -1,609 +1,613 @@
 /* HEADER */
 :root {
-    --main-color: rgba(255, 255, 255, 1);
-    --bg: rgba(5, 4, 4, 1);
-    --secondary-color: rgba(255, 215, 110, 1);
-  }
-  body {
-    font-family: "Inter", sans-serif;
-    background-color: var(--bg);
-  }
-  .header-list {
-    list-style: none;
-    display: flex;
-    padding-left: 647.92px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-  }
-  .header-link {
-    text-decoration: none;
-    color: var(--main-color);
-    padding-left: 20.62px;
-    font-weight: 200;
-    font-size: 16px;
-    transition: all 1s;
-  }
-  .header-link:hover {
-    text-shadow: 0 0 10px #fffb00, 0 0 30px #fffb00, 0 0 80px #fffb00;
-    color: #fff200;
-    transition: all 1s;
-  }
-  /* SECTION-SAVIOURS */
-  .saviours {
-    height: 800px;
-    width: 1438.01px;
-    left: 0.999267578125px;
-    background-image: url(./folder/battlefield.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .fond {
-    padding-top: 48px;
-    padding-left: 142.9px;
-    list-style: none;
-    color: var(--main-color);
-  }
-  .support-header {
-    font-size: 128px;
-    font-weight: 400;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    position: relative;
-  }
-  .fondation-header {
-    font-size: 64px;
-    font-weight: 400;
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    position: relative;
-  }
-  .what-we-do {
-    font-size: 24px;
-    font-weight: 400;
-    position: relative;
-  }
-  .press-to-help {
-    width: 200px;
-    height: 60px;
-    background-color: rgba(255, 215, 110, 1);
-    border-radius: 10px;
-    font-size: 24px;
-    text-align: center;
-    margin-top: 20px;
-    border: none;
-  }
-  .press-to-help:hover {
-    background-color: rgba(255, 215, 110, 1);
-    text-shadow: 0 0 10px #fffb00, 0 0 30px #fffb00, 0 0 80px #fffb00;
-    color: #fff200;
-    background-color: black;
-    transition: all 1s;
-    
-  }
-  .begin {
-    padding-left: 536px;
-    padding-top: 50px;
-    font-weight: 100;
-    font-size: 24px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-  .begin:hover{
-    color: #fffb00;
-    transition-duration:  10ms;
-    transition: all 1s;
-  }
-  .arrow {
-    padding-left: 595px;
-  }
-  /* ABOUT-US */
-  .vaulenteer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    list-style: none;
-  }
-  .about-ukraine-foundation{
-    color: var(--secondary-color);
-    font-size: 48px;
-    margin-top:30px;
-  }
-  .what-is{
-    color: var(--main-color);
-    text-align: left;
-    font-size: 24px;
-  }
-  .first{
-    position: absolute;
-    left:0px;
-    top:1190px;
-  }
-  .second{
-    position: absolute;
-    left:0px;
-    top:1000px;
-  }
-  /* HARD */
-  .creators{
-    color: var(--secondary-color);
-    font-size: 24px;
-    position: absolute;
-    right: 288px;
-    top: 1560px;
-  }
-  .cool{
-    position: absolute;
-    right: 584px;
-    top: 1460px;
-    height: 218px;
-    width: 300px;
-  }
-  .bomb{
-    position: absolute;
-    right: 264px;
-    top:1640px;
-  }
-  .hipster{
-    position: absolute;
-    right: 820px;
-    top: 1728px;
-  }
-  .cirly{
-    position: absolute;
-    right: 588px;
-    top: 1728px;
-  }
-  .third{
-    position: absolute;
-    right: 734px;
-    top: 1418px;
-  }
-  .forth{
-    position: absolute;
-    right: 440px;
-    top: 1730px;
-  }
-  
-  .bal{
-    position: absolute;
-    right: 863px;
-    color: var(--main-color);
-    font-weight: 400;
-    top: 1930px;
-  }
-  .parker{
-    position: absolute;
-    right: 600px;
-    top: 2050px;
-    color: var(--main-color);
-    font-weight: 400;
-  }
-  .dor{
-    position: absolute;
-    right: 616px;
-    color: var(--main-color);
-    font-weight: 400;
-    top: 1670px;
-  }
-  
-  .lev{
-    position: absolute;
-    right: 311px;
-    color: var(--main-color);
-    font-weight: 400;
-    top: 1850px;
-  }
-  /* LVIV */
-  .lviv{
-    margin-top: 630px;
-    background-image: url(./folder/lviv.png);
-    background-repeat: no-repeat;
-  }
-  .lviv-misto{
-    list-style: none;
-    text-align: center;
-    padding-top: 72px;
-    padding-bottom: 80px;
-  }
-  .lviv-name{
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 0;
-  }
-  .lviv-text{
-    font-weight: 400;
-    font-size: 20px;
-  }
-  /* COLLECTION */
-  .our-heroes{
-    position: absolute;
-    padding-top: 52px;
-    padding-left: 124px;
-  }
-  .collection-info{
-    position: absolute;
-    right: 175px;
-    top: 2470px;
-  }
-  .collection{
-    color: var(--secondary-color);
-    font-size: 64px;
-    padding-top: 0px;
-    font-weight: 300;
-    padding-left: 0;
-  }
-  .collection-text{
-    color: var(--main-color);  
-    font-family: Inter;
-    font-size: 24px;
-    line-height: 29px;
-    padding-left: 100px;
-    font-weight: 300;
-  }
-  .collection-text-spacing-one{
-    word-spacing: 16px;
-  }
-  .collection-text-spacing-two{
-    word-spacing: 6px;
-  }
-  .collection-support{
-    position: absolute;
-    background-color: var(--secondary-color);
-    width: 200px;
-    height: 60px;
-    font-size: 24px;
-    border-radius: 10px;
-    right:9px;
-    margin-top: 100px;
-  }
-  .collection-support:hover{
-    text-shadow: 0 0 10px #fffb00, 0 0 30px #fffb00, 0 0 80px #fffb00;
-    color: #fff200;
-    background-color: black;
-    border: none;
-    transition: all 1s;
-  }
-  /* HARKIV */
-  .harkiv{
-    list-style: none;
-    background-image: url(./folder/lviv.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    margin-top: 640px;
-    height: 297px;
-  }
-  .harkiv-hero{
-    padding-top: 72px;
-    font-weight: 700;
-  }
-  .harkiv-text{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  .fifth{
-    position: absolute;
-    right: 5px;
-    top: 3050px;
-  }
-  .sixth{
-    position: absolute;
-    right: 0;
-    top: 3230px; 
-  }
-  /* SUPPORT-THE-ARMY */
-  .support-our-army{
-    font-weight: 300;
-    text-align: center;
-    font-size: 64px;
-    color: var(--secondary-color);
-    margin-top: 40px;
-  }
-  .how-to-help{
-    margin-top: 0;
-    list-style: none;
-    display: flex;
-    justify-content:space-evenly;
-    border-radius: 32px;
-    margin-right: 30px;
-  }
-  .army-help{
-    font-size: 32px;
-    margin-left: 40px;
-    margin-top: 85px;
-  }
-  .army-container{
-    position: absolute;
-    left: 240px;
-    top: 3945px;
-    height: 215px;
-    width: 395px;
-    border-radius: 32px;
-    background-image: url(./folder/background.png);
-  }
-  .objects-help{
-    font-size: 32px;
-    margin-left: 23px;
-    margin-top: 85px;
-  }
-  .object-container{
-    position: absolute;
-    left: 830px;
-    top: 3945px;
-    height: 215px;
-    width: 395px;
-    border-radius: 32px;
-    background-image: url(./folder/background.png);
-  }
-  /* KIEV */
-  .kiev{
-    list-style: none;
-    background-image: url(./folder/lviv.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    margin-top: 60px;
-    height: 297px;
-    margin-bottom: 0;
-  }
-  .kiev-hero{
-    padding-top: 72px;
-    font-weight: 700;
-  }
-  .kiev-text{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  /* ACTIVITY */
-  .activity{
-    filter: brightness(170%);
-    width: 1440px;
-    height: 1362px;
-    background-image: url(./folder/activity.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .activity-header-1{
-  margin: 0;
+  --main-color: rgba(255, 255, 255, 1);
+  --bg: rgba(5, 4, 4, 1);
+  --secondary-color: rgba(255, 215, 110, 1);
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+}
+.header-list {
+  list-style: none;
+  display: flex;
+  padding-left: 647.92px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.header-link {
+  text-decoration: none;
+  color: var(--main-color);
+  padding-left: 20.62px;
+  font-weight: 200;
+  font-size: 16px;
+  transition: all 1s;
+}
+.header-link:hover {
+  text-shadow: 0 0 10px #fffb00, 0 0 30px #fffb00, 0 0 80px #fffb00;
+  color: #fff200;
+  transition: all 1s;
+}
+/* SECTION-SAVIOURS */
+.saviours {
+  height: 800px;
+  width: 1438.01px;
+  left: 0.999267578125px;
+  background-image: url(./folder/battlefield.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.fond {
+  padding-top: 48px;
+  padding-left: 142.9px;
+  list-style: none;
+  color: var(--main-color);
+}
+.support-header {
+  font-size: 128px;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+.fondation-header {
+  font-size: 64px;
+  font-weight: 400;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+.what-we-do {
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.press-to-help {
+  width: 200px;
+  height: 60px;
+  background-color: rgba(255, 215, 110, 1);
+  border-radius: 10px;
+  font-size: 24px;
   text-align: center;
+  margin-top: 20px;
+  border: none;
+}
+.press-to-help:hover {
+  background-color: rgba(255, 215, 110, 1);
+  text-shadow: 0 0 10px #fffb00, 0 0 30px #fffb00, 0 0 80px #fffb00;
+  color: #fff200;
+  background-color: black;
+  transition: all 1s;
+  
+}
+.begin {
+  padding-left: 536px;
+  padding-top: 50px;
+  font-weight: 100;
+  font-size: 24px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.begin:hover{
+  color: #fffb00;
+  transition-duration:  10ms;
+  transition: all 1s;
+}
+.arrow {
+  padding-left: 595px;
+}
+/* ABOUT-US */
+.vaulenteer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+.about-ukraine-foundation{
+  color: var(--secondary-color);
+  font-size: 48px;
+  margin-top:30px;
+}
+.what-is{
+  color: var(--main-color);
+  text-align: left;
+  font-size: 24px;
+}
+.first{
+  position: absolute;
+  left:0px;
+  top:1190px;
+}
+.second{
+  position: absolute;
+  left:0px;
+  top:1000px;
+}
+/* HARD */
+.creators{
+  color: var(--secondary-color);
+  font-size: 24px;
+  position: absolute;
+  right: 288px;
+  top: 1560px;
+}
+.cool{
+  position: absolute;
+  right: 584px;
+  top: 1460px;
+  height: 218px;
+  width: 300px;
+  z-index: 1;
+}
+.bomb{
+  position: absolute;
+  right: 264px;
+  top:1640px;
+  z-index: 1;
+}
+.hipster{
+  position: absolute;
+  right: 820px;
+  top: 1728px;
+  z-index: 1;
+}
+.cirly{
+  position: absolute;
+  right: 588px;
+  top: 1728px;
+  z-index: 1;
+}
+.third{
+  position: absolute;
+  right: 734px;
+  top: 1418px;
+}
+.forth{
+  position: absolute;
+  right: 440px;
+  top: 1730px;
+}
+
+.bal{
+  position: absolute;
+  right: 863px;
+  color: var(--main-color);
+  font-weight: 400;
+  top: 1930px;
+}
+.parker{
+  position: absolute;
+  right: 600px;
+  top: 2050px;
+  color: var(--main-color);
+  font-weight: 400;
+}
+.dor{
+  position: absolute;
+  right: 616px;
+  color: var(--main-color);
+  font-weight: 400;
+  top: 1670px;
+}
+
+.lev{
+  position: absolute;
+  right: 311px;
+  color: var(--main-color);
+  font-weight: 400;
+  top: 1850px;
+}
+/* LVIV */
+.lviv{
+  margin-top: 630px;
+  background-image: url(./folder/lviv.png);
+  background-repeat: no-repeat;
+}
+.lviv-misto{
+  list-style: none;
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 80px;
+}
+.lviv-name{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.lviv-text{
+  font-weight: 400;
+  font-size: 20px;
+}
+/* COLLECTION */
+.our-heroes{
+  position: absolute;
+  padding-top: 52px;
+  padding-left: 124px;
+}
+.collection-info{
+  position: absolute;
+  right: 175px;
+  top: 2400px;
+}
+.collection{
   color: var(--secondary-color);
   font-size: 64px;
-  padding-top: 40px;
-  font-weight: 400;
-  }
-  .activity-header-2{
-  margin: 0;
+  padding-top: 0px;
+  font-weight: 300;
+  padding-left: 0;
+}
+.collection-text{
+  color: var(--main-color);  
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 100px;
+  font-weight: 300;
+}
+.collection-text-spacing-one{
+  word-spacing: 16px;
+}
+.collection-text-spacing-two{
+  word-spacing: 6px;
+}
+.collection-support{
+  position: absolute;
+  background-color: var(--secondary-color);
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 10px;
+  right:9px;
+  margin-top: 100px;
+}
+.collection-support:hover{
+  text-shadow: 0 0 10px #fffb00, 0 0 30px #fffb00, 0 0 80px #fffb00;
+  color: #fff200;
+  background-color: black;
+  border: none;
+  transition: all 1s;
+}
+/* HARKIV */
+.harkiv{
+  list-style: none;
+  background-image: url(./folder/lviv.png);
   text-align: center;
-  color: var(--secondary-color);
-  font-size: 64px;
-  padding-top: 40px;
+  background-repeat: no-repeat;
+  margin-top: 640px;
+  height: 297px;
+}
+.harkiv-hero{
+  padding-top: 72px;
+  font-weight: 700;
+}
+.harkiv-text{
+  font-size: 20px;
   font-weight: 400;
-  padding-top:250px;
-  }
-  .activity-var{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 80px;
-    margin-right:107px;
-    margin-top: 30px;
-  }
-  .activity-name{
-    text-align: center;
-    color: var(--main-color);
-    font-size: 24px;
-    font-weight: 300;
-  }
-  .arrow-R::after{
+}
+.fifth{
+  position: absolute;
+  right: 5px;
+  top: 2980px;
+}
+.sixth{
+  position: absolute;
+  right: 0;
+  top: 3157px; 
+}
+/* SUPPORT-THE-ARMY */
+.support-our-army{
+  font-weight: 300;
+  text-align: center;
+  font-size: 64px;
+  color: var(--secondary-color);
+  margin-top: 40px;
+}
+.how-to-help{
+  margin-top: 0;
+  list-style: none;
+  display: flex;
+  justify-content:space-evenly;
+  border-radius: 32px;
+  margin-right: 30px;
+}
+.army-help{
+  font-size: 32px;
+  margin-left: 40px;
+  margin-top: 85px;
+}
+.army-container{
+  position: absolute;
+  left: 240px;
+  top: 3945px;
+  height: 215px;
+  width: 395px;
+  border-radius: 32px;
+  background-image: url(./folder/background.png);
+}
+.objects-help{
+  font-size: 32px;
+  margin-left: 23px;
+  margin-top: 85px;
+}
+.object-container{
+  position: absolute;
+  left: 830px;
+  top: 3945px;
+  height: 215px;
+  width: 395px;
+  border-radius: 32px;
+  background-image: url(./folder/background.png);
+}
+/* KIEV */
+.kiev{
+  list-style: none;
+  background-image: url(./folder/lviv.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+  height: 297px;
+  margin-bottom: 0;
+}
+.kiev-hero{
+  padding-top: 72px;
+  font-weight: 700;
+}
+.kiev-text{
+  font-size: 20px;
+  font-weight: 400;
+}
+/* ACTIVITY */
+.activity{
+  filter: brightness(170%);
+  width: 1440px;
+  height: 1362px;
+  background-image: url(./folder/activity.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.activity-header-1{
+margin: 0;
+text-align: center;
+color: var(--secondary-color);
+font-size: 64px;
+padding-top: 40px;
+font-weight: 400;
+}
+.activity-header-2{
+margin: 0;
+text-align: center;
+color: var(--secondary-color);
+font-size: 64px;
+padding-top: 40px;
+font-weight: 400;
+padding-top:250px;
+}
+.activity-var{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  margin-right:107px;
+  margin-top: 30px;
+}
+.activity-name{
+  text-align: center;
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: 300;
+}
+.arrow-R::after{
+content: url('./folder/Arrow_r.png') ;
+position: absolute;
+right: 100px;
+top: 280px;
+}
+.arrow-L::before{
+content: url('./folder/Arrow_l.png') ;
+position: absolute;
+left: 100px;
+top: 270px;
+}
+.arrow-R-2::after{
   content: url('./folder/Arrow_r.png') ;
   position: absolute;
   right: 100px;
-  top: 280px;
-  }
-  .arrow-L::before{
+  top: 1030px;
+}
+.arrow-L-2::after{
   content: url('./folder/Arrow_l.png') ;
   position: absolute;
   left: 100px;
-  top: 270px;
-  }
-  .arrow-R-2::after{
-    content: url('./folder/Arrow_r.png') ;
-    position: absolute;
-    right: 100px;
-    top: 1030px;
-  }
-  .arrow-L-2::after{
-    content: url('./folder/Arrow_l.png') ;
-    position: absolute;
-    left: 100px;
-    top: 1030px;
-  }
-  /* HERSON */
-  .herson{
-    list-style: none;
-    background-image: url(./folder/lviv.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    height: 297px;
-    margin-top: 0px;
-    padding-top: 3px;
-  }
-  .herson-hero{
-    padding-top: 52px;
-    font-weight: 700;
-  }
-  .herson-text{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  /* OUR ACHIVEMENTS */
-  .achivements-header{
-    text-align: center;
-    font-size: 64px;
-    color: var(--secondary-color);
-  }
-  .partners{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    margin-left: 40px;
-  }
-  .seventh{
-    position: absolute;
-    margin-top: 50px;
-  }
-  .partner-text{
-    font-size: 20px;
-    line-height: 24px;
-    color:var(--main-color);
-    margin-top: 70px;
-    margin-left: 30px;
-  }
-  .plane{
-    margin-top: 60px;
-  }
-  .we-all-people{
-    position: absolute;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    right: 680px;
-    top:6431px;
-  }
-  .eigth{
-    position: absolute;
-    top: 000px;
-  }
-  .we-all-people-text{
-    font-size: 20px;
-    line-height: 24px;
-    color:var(--main-color);
-    margin-bottom: 100px;
-    margin-top: 90px;
-  }
-  .boxes{
-    margin-bottom: 79px;
-  }
-  .helicopter{
-    position: absolute;
-    right: 300px;
-    top: 6431px;
-  }
-  .helicopter-text{
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    color:var(--main-color);
-    margin-bottom: 100px;
-    margin-top: 220px;
-  }
-  .ninth{
-    position: absolute;
-    margin-top: 7px;
-  }
-  /* MARIUPOL */
-  .mariupol{
-    list-style: none;
-    background-image: url(./folder/lviv.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    height: 297px;
-    margin-top: 110px;
-    padding-top: 3px;
-  }
-  .mariupol-hero{
-    padding-top: 52px;
-    font-weight: 700;
-  }
-  .mariupol-text{
-    font-size: 20px;
-    font-weight: 400;
-  }
-  /* CARD-INFO */
-  .card-header{
-    font-size: 64px;
-    color: var(--secondary-color);
-    text-align: center;
-    font-weight: 300;
-  }
-  .f{
-  margin-top: 30px;
-  }
-  .card-info{
-    width: 752px;
-    height: 560px;
-    background-color: var(--main-color);
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    border: 4px solid rgba(255, 215, 110, 1);
-    margin-top: 120px;
-  }
-  .card-section{
-    margin: 0;
-    padding-left:15px;
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .c-name-f{
-    font-weight: 300;
-    color: var(--secondary-color);
-    font-size: 20px;
-  }
-  .c-name{
-    font-weight: 300;
-    color: var(--secondary-color);
-    font-size: 20px;
-  }
-  .c-description{
-    font-weight: 400;
-    font-size: 20px;
-  }
-  /* FOOTER */
-  .footer-section{
-    margin-top: 160px;
-    background-image: url(./folder/footer.png);
-    height: 356px;
-    filter: brightness(140%);
-    background-repeat: no-repeat;
-    padding-bottom: 0;
-    margin-bottom: 0;
-  }
-  .footer-list{
-    list-style: none;
-  }
-  .footer-header{
-    text-align: center;
-    padding-top: 140px;
-    color: var(--main-color);
-    font-size: 48px;
-    font-weight: 400;
-    letter-spacing: 3px;
-  }
-  .platforms{
-    position: absolute;
-    right: 150px;
-    bottom: 35px;
-  }
-  .inst{
-    position: absolute;
-    right: 17px;
-    bottom:235px ;
-  }
-  .tenth{
-    position: absolute;
-    left: 554px;
-    bottom: 0px;
-  }
-  .eleventh{
-    position: absolute;
-    right: 483.31px;
-    bottom: 0px;
-  }
+  top: 1030px;
+}
+/* HERSON */
+.herson{
+  list-style: none;
+  background-image: url(./folder/lviv.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 297px;
+  margin-top: 0px;
+  padding-top: 3px;
+}
+.herson-hero{
+  padding-top: 52px;
+  font-weight: 700;
+}
+.herson-text{
+  font-size: 20px;
+  font-weight: 400;
+}
+/* OUR ACHIVEMENTS */
+.achivements-header{
+  text-align: center;
+  font-size: 64px;
+  color: var(--secondary-color);
+}
+.partners{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 40px;
+}
+.seventh{
+  position: absolute;
+  margin-top: 50px;
+}
+.partner-text{
+  font-size: 20px;
+  line-height: 24px;
+  color:var(--main-color);
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.plane{
+  margin-top: 60px;
+}
+.we-all-people{
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  right: 660px;
+  top:6354px;
+}
+.eigth{
+  position: absolute;
+  top: 000px;
+}
+.we-all-people-text{
+  font-size: 20px;
+  line-height: 24px;
+  color:var(--main-color);
+  margin-bottom: 100px;
+  margin-top: 90px;
+}
+.boxes{
+  margin-bottom: 79px;
+}
+.helicopter{
+  position: absolute;
+  right: 250px;
+  top:6354px;
+}
+.helicopter-text{
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color:var(--main-color);
+  margin-bottom: 100px;
+  margin-top: 220px;
+}
+.ninth{
+  position: absolute;
+  margin-top: 7px;
+}
+/* MARIUPOL */
+.mariupol{
+  list-style: none;
+  background-image: url(./folder/lviv.png);
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 297px;
+  margin-top: 110px;
+  padding-top: 3px;
+}
+.mariupol-hero{
+  padding-top: 52px;
+  font-weight: 700;
+}
+.mariupol-text{
+  font-size: 20px;
+  font-weight: 400;
+}
+/* CARD-INFO */
+.card-header{
+  font-size: 64px;
+  color: var(--secondary-color);
+  text-align: center;
+  font-weight: 300;
+}
+.f{
+margin-top: 30px;
+}
+.card-info{
+  width: 752px;
+  height: 560px;
+  background-color: var(--main-color);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 4px solid rgba(255, 215, 110, 1);
+  margin-top: 120px;
+}
+.card-section{
+  margin: 0;
+  padding-left:15px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.c-name-f{
+  font-weight: 300;
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+.c-name{
+  font-weight: 300;
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+.c-description{
+  font-weight: 400;
+  font-size: 20px;
+}
+/* FOOTER */
+.footer-section{
+  margin-top: 160px;
+  background-image: url(./folder/footer.png);
+  height: 356px;
+  filter: brightness(140%);
+  background-repeat: no-repeat;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.footer-list{
+  list-style: none;
+}
+.footer-header{
+  text-align: center;
+  padding-top: 140px;
+  color: var(--main-color);
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+.platforms{
+  position: absolute;
+  right: 150px;
+  bottom: 35px;
+}
+.inst{
+  position: absolute;
+  right: 17px;
+  bottom:235px ;
+}
+.tenth{
+  position: absolute;
+  left: 554px;
+  bottom: 0px;
+}
+.eleventh{
+  position: absolute;
+  right: 483.31px;
+  bottom: 0px;
+}
